@@ -14,6 +14,7 @@ public abstract class BaseTest implements IAutoConstant
 {
 
 	public WebDriver driver;
+	
 	public int failcount=0, passcount=0;
 	
 	static
