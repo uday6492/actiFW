@@ -51,7 +51,7 @@ public abstract class BaseTest implements IAutoConstant
 	}
 	
 	/**
-	 * After suite
+	 * After suite gyvyggb
 	 */
 	@AfterSuite
 	public void generateReport()
