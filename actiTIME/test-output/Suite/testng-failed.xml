@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="script.TestEditTask">
+        <methods>
+          <include name="openApp"/>
+          <include name="generateReport"/>
+          <include name="testEditTask"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestEditTask -->
+      <class name="script.TestSelectDelete">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestSelectDelete -->
+      <class name="script.TestSelectClear">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestSelectClear -->
+      <class name="script.TestSelectAllDeselectAll">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestSelectAllDeselectAll -->
+      <class name="script.TestEditTaskType">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestEditTaskType -->
+      <class name="script.TestTask">
+        <methods>
+          <include name="openApp"/>
+          <include name="testTask"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestTask -->
+      <class name="script.TestValidLogin">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestValidLogin -->
+      <class name="script.TestCreateCustomer">
+        <methods>
+          <include name="openApp"/>
+          <include name="testCreateCustomer"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestCreateCustomer -->
+      <class name="script.TestDescription">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestDescription -->
+      <class name="script.TestChangeStatus">
+        <methods>
+          <include name="openApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TestChangeStatus -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
